@@ -1,0 +1,7 @@
+interface ImportMetaEnv {
+  VITE_PRIME_UI_LICENSE_KEY: string;
+}
+
+interface ImportMeta {
+    readonly env: ImportMetaEnv;
+}
